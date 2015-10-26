@@ -1,0 +1,322 @@
+/*General*/
+
+body { padding-top: 70px; 
+}
+
+.padding1em {
+	padding: 1em;
+}
+
+.padding-halfem {
+	padding: .5em;
+}
+
+.margin1em {
+	margin: 1em;
+}
+
+.margin-halfem {
+	margin: .5em;
+}
+
+.margin-r-halfem {
+	margin-right: .5em;
+}
+
+.margin-r-1em {
+	margin-right: 1em;
+}
+
+.margin-top-1em {
+	margin-top: 1em;
+}
+
+
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	1em;
+}
+
+
+
+
+
+
+/*Color Schemes*/
+.purple {
+	background-color: #675466;
+}
+
+.true-blue {
+	background-color: #6AA2D7;
+}
+
+
+
+
+
+
+
+/*Header*/
+
+ul.breadcrumb_custom {
+	margin: 9.75em 0 0 0;
+	padding: 1.5em 1em 1em 1em;
+	background-color: #675466;
+	border-top: .5px solid #fff;
+	z-index: 1;	
+	color: #ddd;
+	font-size: .8em;
+}
+
+.breadcrumb_custom a{
+	color: #ddd;
+}
+
+.breadcrumb_custom a:hover{
+	color: #6AA1D7;
+	text-decoration: none;
+}
+
+.breadcrumb_custom li:last-child {
+	font-weight: bold;
+}
+
+
+
+
+
+
+/*Nav*/
+.navbar {
+	padding: 3em 0 0 0;
+	font-size: .9em;
+	z-index: 2;
+}
+
+#navbar {
+	margin-top: -1em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: #fff;
+	color: #6AA1D7;
+}
+
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #1f295c;
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+	color: #6AA1D7;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #fff;
+	color: #6AA1D7;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #fff;
+	color: #6AA1D7;
+}
+
+.navbar-brand {
+	margin-top: -2em;
+}
+
+.nav_line1 {
+	margin-top: -2em;
+}
+
+.nav_line1 a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.nav_line1 a:hover {
+	background-color: #fff;
+	color: #6AA1D7;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav_line1 a:active {
+	background-color: #6AA1D7;
+	color: #fff;
+}
+
+@media (max-width: 775px) {
+		.navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #fff;
+	}
+
+	.navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		background-color: #fff;
+		color: #6AA1D7;
+	}
+
+	.nav_line1 {
+	margin-top: 1em;
+	}
+
+	.navbar-toggle {
+	margin-top: -3.75em;
+	}
+
+	ul.breadcrumb_custom {
+		margin: 11em 0 0 0;
+	}
+
+}
+
+
+
+
+
+/*Footer*/
+footer.footer {
+	padding: 1.5em 0 1em 0;
+	/*background: #1f295c;*/
+}
+
+footer .text-muted {
+	color: #dddddd;
+	margin-top: -.5em;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #6AA1D7;
+	text-decoration: none;
+}
+
+
+
+
+
+
+/*Main body*/
+
+.main {
+	margin: 5.75em 0 0 0;
+}
+
+.main a {
+	background-color: #fff;
+	color: #6AA1D7;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.padding_1em {
+	padding: 1em;
+}
+
+.margin-top_2em {
+	margin-top: 2em;
+}
+
+.h3_smaller {
+	font-size: 1.25em;
+}
+
+.bg-primary {
+	background: #1f295c;
+	padding: .5em;
+}
+
+.bg-success {
+	background: #91bf6e;
+	padding: .5em;
+}
+
+.page-title {
+	margin: 2em 0;
+}
+
+.page-intro {
+	margin: 3em 0;
+}
+
+
+	/*HOME page*/
+	header.index {
+		margin-top: -4em;
+	}
+
+	.indexMain {
+		margin: -5.75em 0 0 0;
+		background: url(../images/banner/denver-790472_1920_large.jpg) #6AA2D7;
+		background-repeat: no-repeat;
+		color: #fff; 
+		padding: 1em 0 2em 0;
+	}
+
+	.index-purple-block {
+		background-color: #897189;
+		padding: .5em;
+		margin-bottom: 2em;
+	}
+
+	.index-teal-block {
+		background-color: #68A097;
+		padding: .5em;
+		margin-bottom: 2em;
+	}
+
+	.index-red-block {
+		background-color: #B44B51;
+		padding: .5em;
+		margin-bottom: 2em;
+	}
+
+	.index-green-block {
+		background-color: #81A157;
+		padding: .5em;
+		margin-bottom: 2em;
+	}
+
+	.index-blue-block {
+		background-color: #4A738E;
+		padding: .5em;
+		margin-bottom: 2em;
+	}
+
+
+
+	/*PURPLE pages*/
+	.purpleMain {
+		background: url(../images/banner/denver-790472_1920_large_purple.jpg) #675466;
+		background-repeat: no-repeat;
+		color: #fff; 
+		padding: 1em 0 2em 0;
+	}
+
+	.purple-block {
+		background-color: #897189;
+		padding: 1em;
+		margin: 1em 1em 3em 1em;
+
+	}
