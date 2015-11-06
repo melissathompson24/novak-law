@@ -12,6 +12,12 @@
     <link href="css/styles-custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!--Parsley Script-->
+    <script src="js/parsley.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,7 +35,51 @@
     <header id="top">
 
         <!-- Fixed navbar -->
-        <nav id="myNav" class="navbar navbar-default red navbar-fixed-top">
+                <nav id="myNav" class="navbar navbar-default red navbar-fixed-top">
+            <div class='container-fluid'>"
+                <div class='navbar-header'>
+                  <a class='navbar-brand' href='index.html'>
+                  <img class='img-responsive center-block' alt='Logo stating the name Novak Law LLC: Real Estate and Business Law across the Denver Front Range.' src='./images/siteID_novak.png'></a>
+              </div>
+
+              <a href='#skipToContent'>
+              <img class='img-responsive' alt='Skip to main content' src='./images/skipToContent.png'></a>
+
+  
+              <div class='navbar-right nav_line1'>
+                  <a href='sitemap.html' class='padding-halfem margin-r-1em'>Sitemap</a>
+                  <input id='search' name='search' type='text' required placeholder='Search'><button type='button' class='btn btn-default margin1em' aria-label='Search'>
+                  <span class='glyphicon glyphicon-search' aria-hidden='true'></span>
+                  </button>
+              </div>
+
+              <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar'>
+              <span class='sr-only'>Toggle navigation</span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              </button>
+          </div>
+          <div id='navbar myDropdown' class='collapse navbar-collapse  navbar-right margin-r-1em'>
+              <ul class='nav navbar-nav'>
+                  <li><a href='index.html'>Home</a></li>
+                  <li><a href='about.html'>About</a></li>
+                  <li><a class="active" href='contact.html'>Contact</a></li>
+                  <li class='dropdown dropdown-menu-right'>
+                  <a href='legal.html' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Legal Services<span class='caret'></span></a>
+                      <ul class='dropdown-menu'>
+                          <li><a href='realEstate.html'>Real Estate Law</a></li>
+                          <li><a href='businessFormation.html'>Business Formation</a></li>
+                          <li><a href='businessDisputes.html'>Business Disputes</a></li>
+                          <li><a href='appellate.html'>Appellate Litigation</a></li>
+                      </ul>
+                  </li>
+                  <li><a href='mediation.html'>Mediation Services</a></li>
+                  <li><a href='resources.html'>Resources & Articles</a></li>
+              <ul class='nav navbar-nav'>
+              </ul>
+          </div><!--/.nav-collapse -->
+          </div>
         </nav>
           <!-- Breadcrumb -->
           <ul class="breadcrumb_custom_red list-inline navbar-fixed-top">
@@ -57,60 +107,104 @@
 			<!-- Page content -->
 
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center page-intro">
-			<p>We specialize in the following areas of Real Estate Law.</p>
+			<p>Looking for solutions? We can help. Contact us now.</p>
 			</div>
 
-	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+	            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left">
 		            <div class="red-block">
-		            <h2 class="fa fa-microphone-slash fa-5x"></h2>
-		            <h2>Quite Title Action</h2>
-		            <p class="text-left">Cupcake ipsum dolor sit amet. Biscuit sweet soufflé soufflé dessert lemon drops pastry jelly-o. Lemon drops tart jelly chocolate bar. Lollipop dragée sweet halvah.</p>
-		            </div>
-	            </div>
 
-	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-		            <div class="red-block">
-		            <h2 class="fa fa-gavel fa-5x"></h2>
-		            <h2>Litigation</h2>		            
-		            <p class="text-left">Croissant cake lollipop marshmallow cotton candy. Gummies apple pie jelly marzipan tiramisu caramels. Biscuit chocolate cake fruitcake. Soufflé chupa chups cake topping sugar plum icing dragée bear claw.</p>
-		            </div>
-	            </div>
-				
-				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-		            <div class="red-block">
-		            <h2 class="fa fa-building-o fa-5x"></h2>
-		            <h2>Commercial Real Estate Disputes</h2>		            
-		            <p class="text-left">Topping donut muffin soufflé jelly beans cookie candy canes marshmallow oat cake. Cake donut danish powder cake candy canes. Pie carrot cake cotton candy cookie.</p>
-		            </div>
-	            </div>
+                    <!-- Form Success =====================================-->
+                    <section class="formSubmitted">
+
+                      <div class="formThanks">
+                      </div>
+
+                      <div class="formResults">
+                      </div>  
+
+                    </section> 
+                    
+                    <!-- Form Input ========================================-->
+                      <div id="contactForm">     
 
 
-	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-		            <div class="red-block">
-		            <h2 class="fa fa-times-circle fa-5x"></h2>
-		            <h2>Landlord/Tenant Diputes</h2>		            
-		            <p class="text-left">Croissant cake lollipop marshmallow cotton candy. Gummies apple pie jelly marzipan tiramisu caramels. Biscuit chocolate cake fruitcake. Soufflé chupa chups cake topping sugar plum icing dragée bear claw.</p>
-		            </div>
-	            </div>
+                        <form class="form-horizontal" id="form" method="POST" action="" data-parsley-validate>
 
-	            
+                        <div class="form-group">
+                            <label class="sr-only col-sm-2 control-label" for="name">Name</label>
+                            <div class="col-sm-12">
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Name (required)" title="Please provide your first and last name." required autofocus>
+                            </div>
+                        </div>
 
-	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-		            <div class="red-block">
-		            <h2 class="fa fa-flash fa-5x"></h2>
-		            <h2>Title Insurance Disputes</h2>		            
-		            <p class="text-left">Croissant cake lollipop marshmallow cotton candy. Gummies apple pie jelly marzipan tiramisu caramels. Biscuit chocolate cake fruitcake. Soufflé chupa chups cake topping sugar plum icing dragée bear claw.</p>
-		            </div>
-	            </div>
 
-	            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-		            <div class="red-block">
-		            <h2 class="fa fa-home fa-5x"></h2>
-		            <h2>HOA Disputes</h2>		            
-		            <p class="text-left">Croissant cake lollipop marshmallow cotton candy. Gummies apple pie jelly marzipan tiramisu caramels. Biscuit chocolate cake fruitcake. Soufflé chupa chups cake topping sugar plum icing dragée bear claw.</p>
-		            </div>
-	            </div>
+                        <div class="form-group">
+                            <label class="sr-only col-sm-2 control-label" for="email">Email</label>
+                            <div class="col-sm-12">
+                                <input class="form-control" id="email" name="email" type="email" placeholder="Email (required)" title="Please provide your email." required >
+                            </div>
+                        </div>
 
+
+
+                        <div class="form-group">
+                            <label class="sr-only col-sm-2 control-label" for="phone">Phone</label>
+                            <div class="col-sm-12">
+                                <input class="form-control" id="phone" name="phone" data-parsley-type="number" minlength="10" maxlength="11" placeholder="Phone: XXXXXXXXXX (required)"  title="Please provide your 10-digit phone number." required>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label class="sr-only col-sm-6 control-label" for="description">Briefly describe your reason for contacting us. (required)</label>
+                            <div class="col-sm-12">
+                                <textarea  class="form-control" id="description" name="description" placeholder="Briefly describe your reason for contacting us. (required)" rows="4" data-parsley-trigger="keyup" data-parsley-minlength="20" data-parsley-validation-threshold="10" data-parsley-minlength-message = "Can you provide just a bit more information?" title="Briefly describe your reason for contacting us." required></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                    <label class="control-label" for="options">How would you like to be contacted? (required)</label> 
+
+                                    <div class="col-sm-offset-1 checkbox-inline">
+                                        <input id="contact_email" name="options" type="radio" value="Email" required>
+                                        <label for="contact_email">Email</label>
+                                    </div>
+
+                                    <div class="col-sm-offset-1 checkbox-inline">
+                                        <input id="contact_phone" name="options" type="radio" value="Phone">
+                                        <label for="contact_phone">Phone</label>
+                                    </div>
+
+                                    <div class="col-sm-offset-1 checkbox-inline">
+                                        <input id="either" name="options" type="radio" value="Either">
+                                        <label for="either">Either</label>             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="margin1em">
+                            <input class="submit center-block" type="submit" id="submit" name="submit" value="Submit"/>
+                        </div>
+
+                        </form>
+
+                    <!--close contact form-->
+                    </div>
+
+
+
+    	            </div>
+
+                <!--close red-block-->
+                </div>
+
+            <!--close column-->
+            </div>
 
 	            
 
@@ -141,15 +235,15 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./js/ie10-viewport-bug-workaround.js"></script>
-    <!-- Load headers -->
-    <script async src="./js/load_essentials_header.js"></script>
     <!-- Load footers -->
     <script async src="./js/load_essentials_footer.js"></script>
     <!-- To tell old browsers where to get HTML5 elements -->
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!-- Load JS for contact form -->
+    <script type ="text/JavaScript" async src="js/contact.js"></script>
         
   </body>
 </html>

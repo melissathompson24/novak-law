@@ -14,7 +14,7 @@ document.getElementById("myNav").innerHTML =
 
   
   +  "<div class='navbar-right nav_line1'>"
-  +  "<a href=sitemap.html' class='padding-halfem margin-r-1em'>Sitemap</a>"
+  +  "<a href='sitemap.html' class='padding-halfem margin-r-1em'>Sitemap</a>"
   +  "<input id='search' name='search' type='text' required placeholder='Search'>"
   +  "<button type=button' class='btn btn-default margin1em' aria-label='Search'>"
   +  "<span class='glyphicon glyphicon-search' aria-hidden='true'></span>"
@@ -30,10 +30,10 @@ document.getElementById("myNav").innerHTML =
   +  "<span class='icon-bar'></span>"
   +  "</button>"
   +  "</div>"
-  +  "<div id='navbar' class='collapse navbar-collapse  navbar-right margin-r-1em'>"
+  +  "<div id='navbar myDropdown' class='collapse navbar-collapse  navbar-right margin-r-1em'>"
   +  "<ul class='nav navbar-nav'>"
-  +  "<li><a href='index.html'>Home</a></li>"
-  +  "<li><a href='about.html'>About</a></li>"
+  +  "<li><a class='active' href='index.html'>Home</a></li>"
+  +  "<li><a class='active' href='about.html'>About</a></li>"
   +  "<li><a href='contact.html'>Contact</a></li>"
   +  "<li class='dropdown dropdown-menu-right'>"
   +  "<a href='practice.html' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>Practice Areas<span class='caret'></span></a>"
@@ -54,17 +54,15 @@ document.getElementById("myNav").innerHTML =
   ;
 
 
+  $(".navbar-nav>.active>a").on("click", function(){
+   $(".navbar-nav>.active").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
 
 
 
-document.getElementById("myFooter").innerHTML =
-  "<div class='container-fluid text-center'>"
-  +  "<p class='text-muted'><a href='index.html'>Novak Law LLC</a></p>"
-  +  "<p class='text-muted'><a href='about.html'>About</a> | <a href='contact.html'>Contact.html</a> | <a href='practice.html</a>Practice Areas</a> | <a href='attorney.html'>Attorney</a> | <a href='resources.html'>Resources & Articles</a></p>"
-  +  "<p class='text-muted'>Copyright &copy; " 
-  +  new Date().getFullYear()
-  +  ". All Rights Reserved.</span></p>"
-  ;
+
+
 
 
 
