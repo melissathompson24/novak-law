@@ -11,4 +11,10 @@ document.getElementById("myFooter").innerHTML =
   ;
 
 
+//adjusts page anchor so it's not hidden behind the header
+var shiftWindow = function() { scrollBy(0, -160) };
+if (location.hash) shiftWindow();
+window.addEventListener("hashchange", shiftWindow);
+
+
 
