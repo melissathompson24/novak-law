@@ -45,7 +45,7 @@
 					var formThanks = $('.formThanks');
 					var formResults = $('.formResults');
 					//formResults.empty();//replaces the results each time the form is submittted.
-					formThanks.append('<div><h2 class="text-center">Thanks!</h2></div><div><h2 class="text-center">We\'ll be in touch soon.</h2></div>');
+					formThanks.append('<div class="submission-success"><div><h2 class="text-center">Thanks for contacting us!</h2></div><div><h2 class="text-center">We\'ll be in touch soon.</h2></div></div>');
 
 				}				
 
