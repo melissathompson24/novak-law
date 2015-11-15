@@ -127,13 +127,13 @@ ul.larger {
 
 	/*PURPLE Breadcrumb*/
 	ul.breadcrumb_custom_purple {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #675466;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	.breadcrumb_custom_purple a{
@@ -153,13 +153,13 @@ ul.larger {
 
 	/*TEAL Breadcrumb*/
 	ul.breadcrumb_custom_teal {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #557F77;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	 
 	.breadcrumb_custom_teal a{
@@ -179,13 +179,13 @@ ul.larger {
 
 	/*RED Breadcrumb*/
 	ul.breadcrumb_custom_red {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #B44B51;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	 
 	.breadcrumb_custom_red a{
@@ -205,13 +205,13 @@ ul.larger {
 
 	/*GREEN Breadcrumb*/
 	ul.breadcrumb_custom_green {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #81A156;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	 
 	.breadcrumb_custom_green a{
@@ -231,13 +231,13 @@ ul.larger {
 
 	/*BLUE Breadcrumb*/
 	ul.breadcrumb_custom_blue {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #4A738E;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	 
 	.breadcrumb_custom_blue a{
@@ -258,13 +258,13 @@ ul.larger {
 
 	/*TRUE-BLUE Breadcrumb*/
 	ul.breadcrumb_custom_true-blue {
-		margin: 7.5em 0 0 0;
+		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
 		background-color: #6AA2D7;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	 
 	.breadcrumb_custom_true-blue a{
@@ -290,7 +290,7 @@ ul.larger {
 	/*Nav*/
 	.navbar {
 		padding: 3em 0 0 0;
-		font-size: 1.25em;
+		font-size: 1.5em;
 		z-index: 2;
 	}
 
@@ -403,27 +403,27 @@ ul.larger {
 		}
 
 		ul.breadcrumb_custom_purple {
-			margin: 11.5em 0 0 0;		
+			margin: 11em 0 0 0;		
 		}
 
 		ul.breadcrumb_custom_teal {
-			margin: 11.5em 0 0 0;
+			margin: 11em 0 0 0;
 		}
 
 		ul.breadcrumb_custom_red {
-			margin: 11.5em 0 0 0;
+			margin: 11em 0 0 0;
 		}
 
 		ul.breadcrumb_custom_green {
-			margin: 11.5em 0 0 0;
+			margin: 11em 0 0 0;
 		}
 
 		ul.breadcrumb_custom_blue {
-			margin: 11.5em 0 0 0;
+			margin: 11em 0 0 0;
 		}
 
 		ul.breadcrumb_custom_true-blue {
-			margin: 11.5em 0 0 0;
+			margin: 11em 0 0 0;
 		}
 
 	}
@@ -462,12 +462,12 @@ footer a:hover {
 /*Main body*/
 
 .main {
-	margin: 4.75em 0 0 0;
+	margin: 7em 0 0 0;
 }
 
 	@media (max-width: 775px) {
 		.main {
-			margin: 8em 0 0 0;
+			margin: 12em 0 0 0;
 		}
 	}
 
