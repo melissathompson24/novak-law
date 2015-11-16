@@ -1,8 +1,45 @@
 /*General*/
 
+/* To make font-size accessible ====================================================== */
+		/*
+		  Bootstrap accessibility (LESS)
+		  http://stackoverflow.com/questions/12999267/why-does-twitter-bootstrap-use-pixels-for-font-size
+		  http://www.filamentgroup.com/lab/how-we-learned-to-leave-body-font-size-alone.html
+		*/
+		/*
+		  https://github.com/twbs/bootstrap/blob/v3.3.0/less/scaffolding.less#L20
+		  https://github.com/twbs/bootstrap/blob/v3.3.0/less/scaffolding.less#L23
+		*/
+		/*// Body reset*/
+		html {
+		  font-size: 75%;  /* Was: 10px; ou-specific */
+		  -webkit-tap-highlight-color: rgba(0,0,0,0);
+		}
+		body {
+		  font-family: @font-family-base;
+		  font-size: @font-size-base;
+		  line-height: @line-height-base;
+		  color: @text-color;
+		  background-color: @body-bg;
+		}
+		/* ====================================================== */
+		/* https://github.com/twbs/bootstrap/blob/v3.3.0/less/variables.less#L51
+		*/
+		@font-size-base:          100%;  /* Was: 14px; ou-specific */
+		/* ====================================================== */
+		/* https://github.com/IET-OU/apd/blob/master/sites/all/themes/apd/css/bootstrap.min.css
+		*/
+
+		/*!
+		 * Bootstrap v3.2.0 (http://getbootstrap.com)
+ ...*/
+
+
+
+
 body { padding-top: 70px; 
 	background-color: #6AA2D7;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 a {
@@ -106,7 +143,7 @@ ul.larger {
 }
 
 .green {
-	background-color: #81A156;
+	background-color: #799153;
 }
 
 .blue {
@@ -207,7 +244,7 @@ ul.larger {
 	ul.breadcrumb_custom_green {
 		margin: 6.5em 0 0 0;
 		padding: 1.5em 1em 1em 1em;
-		background-color: #81A156;
+		background-color: #799153;
 		border-top: .5px solid #fff;
 		z-index: 1;	
 		color: #ddd;
@@ -586,7 +623,7 @@ footer a:hover {
 	}
 
 	.index-green-block {
-		background-color: #81A157;
+		background-color: #799153;
 		padding: .5em;
 		margin-bottom: 2em;
 	}
@@ -685,7 +722,7 @@ footer a:hover {
 
 	/*GREEN pages*/
 	.greenMain {
-		background: url(../images/banner/denver-790472_1920_large_green.jpg) #81A156;
+		background: url(../images/banner/denver-790472_1920_large_green.jpg) #799153;
 		background-repeat: no-repeat;
 		color: #fff; 
 		padding: 1em 0 2em 0;
